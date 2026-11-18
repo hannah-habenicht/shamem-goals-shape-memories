@@ -1,0 +1,28 @@
+# R packages used by eyetracking/analysis/*.py (through Rscript)
+# and behavioural/*.R.
+# Outputs were verified with R 4.4.1 and these versions.
+lme4 2.0.1
+lmerTest 3.2.1
+emmeans 2.0.3
+Matrix 1.7.0
+
+# Also used by behavioural/beh_ana04_encoding_analysis.R (verified with R 4.4.1
+# and these versions).
+car 3.1.5
+dplyr 1.2.1
+tidyr 1.3.2
+ggplot2 4.0.3
+scales 1.4.0
+
+# Also used by behavioural/beh_ana05_freerecall_analysis.R (verified with R 4.4.1
+# and these versions). svglite is needed by ggplot2 to save the .svg figures.
+MASS 7.3.61
+sandwich 3.1.1
+lmtest 0.9.40
+betareg 3.2.4
+ggdist 3.3.3
+patchwork 1.3.2
+svglite 2.2.2
+
+# behavioural/beh_ana0[1-3]_*.m (reference only) use base MATLAB (readmatrix,
+# readtable, writetable).

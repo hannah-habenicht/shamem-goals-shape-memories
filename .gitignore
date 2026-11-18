@@ -1,0 +1,10 @@
+config.py
+results/
+__pycache__/
+*.pyc
+.vscode/
+*.pth
+*.mp4
+*.asc
+*.edf
+~$*

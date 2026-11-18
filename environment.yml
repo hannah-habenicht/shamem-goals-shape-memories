@@ -1,0 +1,22 @@
+# Python environment. Versions are those the outputs were verified with.
+# Install the segmentation package separately (see eyetracking/README.md).
+name: shamem1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==2.2.6
+      - pandas==2.2.3
+      - scipy==1.16.0
+      - matplotlib==3.10.6
+      - seaborn==0.13.2
+      - tqdm==4.67.1
+      - opencv-python==4.12.0.88
+      - openpyxl==3.1.5
+      - pillow==11.3.0
+      - bids-validator
+      # Segmentation only; choose the build that matches your GPU
+      - torch==2.6.0
+      - torchvision==0.21.0
